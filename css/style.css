@@ -1,0 +1,279 @@
+/* Default styles for larger screens */
+.top-container {
+  background-image: url(../images/computer-blue-neon-backlight-data-center-Server.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo position for larger screens */
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* Main heading styles for larger screens */
+.main-heading {
+  color: white;
+  font-family: "Butler", Sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+/* Upper and lower main heading styles for larger screens */
+.upper-main-heading,
+.lower-main-heading {
+  color: lightgray;
+  font-family: "Butler", Sans-serif;
+  text-align: center;
+}
+
+/* Title container styles for larger screens */
+.top-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Container for the entire webpage */
+.vertical-webpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+/* Profile image styles for larger screens */
+.profile-img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: aliceblue;
+}
+
+/* Head details styles for larger screens */
+.head-details {
+  color: #FFFFFFB3;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Vision and Mission container styles for larger screens */
+.head-vision-mission {
+  background-color: #E0E8F2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+/* Styles for the "Vertical Head" section */
+#head {
+  background-color: #0C4DA2;
+}
+
+
+/* Head name styles for larger screens */
+#head-name {
+  color: white;
+  font-family: "Butler", Sans-serif;
+}
+
+/* Navigation bar widget styles for larger screens */
+.nav-bar{
+  max-width: 100%;
+  /* margin: 0 auto; */
+}  
+.nav-bar-widget{
+  background-color: #E4B316;
+  max-width: 100%;
+}
+
+
+/* Styles for the navigation links */
+.elementor-widget-container{
+  margin: 16px;
+  
+}
+.elementor-widget-container a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Research Group container styles for larger screens */
+#research-group {
+  background-color: #E6F2FF;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+/* Heading styles for the "Accelerated Computing Research Group" */
+.h2-class {
+  color: #DC143C;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Industry Connect container styles for larger screens */
+#industry-connect {
+  background-color: #E0E8F2;
+  margin-bottom: 10px;
+  padding: 25px 30px 80px 30px;
+}
+
+/* List of research group members styles for larger screens */
+.list-research-group {
+  color: #0C4DA2;
+}
+
+/* Text document styles for larger screens */
+.text-document {
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-weight: bolder;
+}
+
+/* Activities container styles for larger screens */
+#activities {
+  background-color: #E6F2FF;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Styles for document images */
+.document-images {
+  max-width: 100%; /* Ensure images are responsive */
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+/* Media query for screens with a maximum width of 768px or smaller */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .top-container {
+    height: 400px;
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}
+/* Add these CSS rules for responsiveness */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* Media query for screens with a maximum width of 768px or smaller */
+@media (max-width: 768px) {
+  .carousel-inner {
+    flex-wrap: wrap;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+}
+/* Default styles for larger screens */
+.top-container {
+  background-image: url(../images/computer-blue-neon-backlight-data-center-Server.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px; /* Default height for larger screens */
+  position: relative; /* Add relative positioning */
+}
+
+/* Logo position for larger screens */
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* Main heading styles for larger screens */
+.main-heading {
+  color: white;
+  font-family: "Butler", Sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+/* Upper and lower main heading styles for larger screens */
+.upper-main-heading,
+.lower-main-heading {
+  color: lightgray;
+  font-family: "Butler", Sans-serif;
+  text-align: center;
+}
+
+/* Title container styles for larger screens */
+.top-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Add these CSS rules for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .top-container {
+    height: auto; /* Adjust the height for smaller screens */
+    min-height: 400px; /* Minimum height for smaller screens */
+    padding: 20px; /* Increase padding for smaller screens */
+  }
+  
+  /* Adjust the position of the logo for smaller screens */
+  #logo {
+    top: 10px;
+    left: 30px;
+  }
+
+  /* Adjust the main heading font size for smaller screens */
+  .main-heading {
+    font-size: 36px;
+  }
+  .upper-main-heading {
+    font-size: 18px;
+  }
+  .lower-main-heading {
+    font-size: 16px;
+  }
+}
